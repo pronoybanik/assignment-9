@@ -1,18 +1,24 @@
 .header-container{
-    background-color: aqua;
+    background-color: rgb(92, 212, 212);
     display: flex;
+    text-align: center;
     padding-left: 30px;
     padding-right: 30px;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    
     
 }
 
 .header-child a{
     text-decoration: none;
-    align-items: center;
+    font-weight: bold;
     font-size: 20px;
     padding: 10px;
-    color: aliceblue;
-    
-    
+    color: rgb(6, 20, 32);   
+}
+
+.header-child a:hover{
+    color: rgba(74, 126, 224, 0.527);
 }

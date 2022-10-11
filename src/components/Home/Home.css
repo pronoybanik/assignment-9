@@ -1,0 +1,24 @@
+.homes img{
+    width: 80%;
+    height: 240mm;
+}
+
+.home{
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    
+}
+
+.home h1{
+    color: rgb(56, 99, 99);
+}
+.cart-component{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width:1200px){
+    .cart-component{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
