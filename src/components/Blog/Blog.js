@@ -17,7 +17,9 @@ const Blog = () => {
             <div>
                 <h2>2- How dose context api work</h2>
                 <p>The Context API is a React structure that enables you to exchange unique details and assists in solving prop-drilling 
-                    from all levels of your application</p>
+                    from all levels of your application Context API is a  new feature added in version 16.3 of React that allows one to share state across the entire app (or part of it) lightly and with ease.
+
+</p>
             </div>
             <div>
                 <div>
@@ -25,7 +27,9 @@ const Blog = () => {
                     <p>The useRef Hook allows you to
                          persist values between renders.
                           It can be used to store a mutable 
-                          value that doesnot cause a re-render when updated.</p>
+                          value that doesnot cause a re-render when updated.
+                          
+                          </p>
                 </div>
             </div>
 
