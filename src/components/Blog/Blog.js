@@ -1,8 +1,10 @@
 import React from 'react';
+import './Blog.css'
 
 const Blog = () => {
     return (
-        <div>
+        <div className='blog'>
+            <h1> Quiz </h1>
             
             <div>
                 <h2>1- What is a perpase react router</h2>
@@ -25,6 +27,14 @@ const Blog = () => {
                           It can be used to store a mutable 
                           value that doesnot cause a re-render when updated.</p>
                 </div>
+            </div>
+
+            <div>
+                <p>
+                    1- ei project e data load korchi api theke 
+                    2- i try my lavel best 
+                    3- cart part ta halka kosto hoichilo
+                </p>
             </div>
             
         </div>
