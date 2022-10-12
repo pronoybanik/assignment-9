@@ -11,7 +11,7 @@ const Cart = ({cart}) => {
             <h3> {name}</h3>
             <p>Qustion: {total}</p>
             <Link to={`/cart/${id}`}>
-            <button>Start Quiz</button>
+            <button className='button'>Start Quiz</button>
             </Link>
             </div>
         </div>

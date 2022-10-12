@@ -1,7 +1,6 @@
 .cart{
     margin-left: 300px;
     margin-right: 300px;
-    /* box-shadow: 20px 20px 30px grey; */
     border-radius: 20px;
 }
 .cart:hover{
@@ -21,4 +20,15 @@
 }
 .carts h3{
      color: rgb(60, 126, 126);
+}
+.button{
+    font-weight: bold;
+    border: none;
+    color: aliceblue;
+    padding: 18px;
+    background-color: rgb(38, 82, 82);
+    border-radius:20px;
+}
+.button:hover{
+    background-color: rgb(80, 126, 110);
 }

@@ -8,7 +8,7 @@ import Cart from '../Cart/Cart';
 const Home = () => {
     const data= useLoaderData();
    const carts= data.data;
-   console.log(carts);
+//    console.log(carts);
 
     return (
         <div className='homes'>  
